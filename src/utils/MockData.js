@@ -1,0 +1,123 @@
+const reslist = [
+  {
+    info: {
+      id: "123456",
+      name: "Pizza Paradise",
+      cloudinaryImageId: "pizza123",
+      locality: "MG Road",
+      areaName: "Central District",
+      costForTwo: "₹400 for two",
+      cuisines: ["Pizza", "Italian", "Fast Food"],
+      avgRating: 4.3,
+      avgRatingString: "4.3",
+      totalRatingsString: "10K+ ratings",
+      veg: false,
+      sla: {
+        deliveryTime: 30,
+        lastMileTravel: 3.5,
+        slaString: "30 mins",
+      },
+      aggregatedDiscountInfoV3: {
+        header: "50% OFF",
+        subHeader: "UPTO ₹100",
+      },
+    },
+  },
+  {
+    info: {
+      id: "234567",
+      name: "Burger Hub",
+      cloudinaryImageId: "burger123",
+      locality: "FC Road",
+      areaName: "Shivaji Nagar",
+      costForTwo: "₹300 for two",
+      cuisines: ["Burgers", "American"],
+      avgRating: 4.1,
+      avgRatingString: "4.1",
+      totalRatingsString: "5K+ ratings",
+      veg: false,
+      sla: {
+        deliveryTime: 25,
+        lastMileTravel: 2.0,
+        slaString: "25 mins",
+      },
+      aggregatedDiscountInfoV3: {
+        header: "30% OFF",
+        subHeader: "UPTO ₹75",
+      },
+    },
+  },
+  {
+    info: {
+      id: "345678",
+      name: "Green Bites",
+      cloudinaryImageId: "salad123",
+      locality: "Koregaon Park",
+      areaName: "East Pune",
+      costForTwo: "₹250 for two",
+      cuisines: ["Healthy", "Salads"],
+      avgRating: 4.5,
+      avgRatingString: "4.5",
+      totalRatingsString: "3K+ ratings",
+      veg: true,
+      sla: {
+        deliveryTime: 20,
+        lastMileTravel: 1.8,
+        slaString: "20 mins",
+      },
+      aggregatedDiscountInfoV3: {
+        header: "20% OFF",
+        subHeader: "UPTO ₹50",
+      },
+    },
+  },
+  {
+    info: {
+      id: "456789",
+      name: "Spice Kingdom",
+      cloudinaryImageId: "biryani123",
+      locality: "Camp",
+      areaName: "South Pune",
+      costForTwo: "₹500 for two",
+      cuisines: ["Indian", "Biryani"],
+      avgRating: 4.2,
+      avgRatingString: "4.2",
+      totalRatingsString: "8K+ ratings",
+      veg: false,
+      sla: {
+        deliveryTime: 35,
+        lastMileTravel: 4.2,
+        slaString: "35 mins",
+      },
+      aggregatedDiscountInfoV3: {
+        header: "40% OFF",
+        subHeader: "UPTO ₹120",
+      },
+    },
+  },
+  {
+    info: {
+      id: "567890",
+      name: "Chinese Dragon",
+      cloudinaryImageId: "chinese123",
+      locality: "Baner",
+      areaName: "West Pune",
+      costForTwo: "₹350 for two",
+      cuisines: ["Chinese", "Asian"],
+      avgRating: 4.0,
+      avgRatingString: "4.0",
+      totalRatingsString: "6K+ ratings",
+      veg: false,
+      sla: {
+        deliveryTime: 28,
+        lastMileTravel: 3.0,
+        slaString: "28 mins",
+      },
+      aggregatedDiscountInfoV3: {
+        header: "25% OFF",
+        subHeader: "UPTO ₹80",
+      },
+    },
+  },
+];
+export default reslist

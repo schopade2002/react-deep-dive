@@ -1,8 +1,44 @@
-#id{
-    color: brown;
-    background-color: azure;
-    font-style: italic;
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+
 }
-#parent{
-    color: yellowgreen;
+ .logo{
+   width: 200px;
+ }
+ .nav-item > ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 24px;
+ }
+ .nav-item > ul > li{
+    padding: 10px;
+    margin: 12px;
+ }
+.search{
+ padding: 10px;
 }
+ .res-cart{
+    width: 200px;
+    padding: 5px;
+    height: auto;
+        background-color: rgb(247, 240, 240);
+ }
+  .res-cart :hover{
+                border: 1px solid black;
+
+  }
+  .logo-res{
+    width: 100%;
+    border-radius: 4%;
+    height: 40%;
+ }
+ .res-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 18px;
+ }
+ .filter{
+    margin: 20px;
+ }

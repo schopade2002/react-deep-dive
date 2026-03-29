@@ -1,0 +1,31 @@
+{
+  "name": "namste-react-",
+  "version": "1.0.0",
+  "description": "\"this is my starting create from scretch\"",
+  "scripts": {
+    "start":"parcel index.html",
+    "build" :"parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://schopade2002@github.com/schopade2002/react-deep-dive.git"
+  },
+  "keywords": [
+    "react",
+    "deep-dive"
+  ],
+  "author": "sneha chopade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schopade2002/react-deep-dive/issues"
+  },
+  "homepage": "https://github.com/schopade2002/react-deep-dive#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}
