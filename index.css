@@ -42,3 +42,13 @@
  .filter{
     margin: 20px;
  }
+ .Shimmer-Card{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .CardContainer{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(247, 240, 240);
+    margin: 10px;
+ }
